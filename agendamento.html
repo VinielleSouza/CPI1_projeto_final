@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lan="pt-br">
+	
+	<head>
+		<meta charset="utf-8" />
+		<title> Agendamentos | Mari Personal Trainer </title>
+		<meta name="author" content="Vinielle Souza" />
+		<meta name="keywords" content="personal trainer, atividade física, musculação, academia" />
+		<meta name="description" content=" Personal Trainer em Brasília e online" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="estilo.css" />
+	</head>
+
+	<body>
+		<section id="pag-agend">
+
+			<header>
+				<div id="icons-header"> 
+					<a href="https://wa.me/5561992634977" target="blank"> <img class="img-icon" src="img/wpp-icon.png"> </a> 
+					<a href="https://instagram.com/maripersonaltrainer" target="blank"> <img class="img-icon" src="img/ig-icon.png"> </a> 
+					<a href="https://www.tiktok.com/@mari.personaltrainer?_t=8pCskU5TSA1&_r=1" target="blank"> <img class="img-icon" src="img/tt-icon.png"> </a> 
+				</div> 
+			</header>
+
+			<img id="banner" src="img/banner2.png" />
+
+			<nav> 
+				<ul id="ul-menu">
+					<li class="li-menu"> <a class="a-menu" href="index.html"> INÍCIO </a> </li>
+					<li class="li-menu"> <a class="a-menu" href="planos.html" target="blank"> PLANOS </a> </li>
+					<li class="li-menu"> <a class="a-menu" href="depoimentos.html" target="blank"> DEPOIMENTOS </a> </li>
+					<!-- <li class="li-menu" id="nav-po"> <a class="a-menu" href="planos.html" target="blank"> PERSONAL ONLINE </a> </li> -->
+					<li class="li-menu"> <a class="a-menu" href="agendamento.html" target="blank"> AGENDAMENTOS </a> </li>
+				</ul> 	
+			</nav>
+
+			<main id="agends">
+				<h1 id="h1-agends"> Agendamentos </h1>
+
+					<p> Agende uma <strong>aula experimental</strong> ou uma <strong>consultoria</strong> com a <strong> Mari Personal</strong>!</p>
+				
+				<form name="" method="" action="">
+					<label for="nome">Nome:</label> 
+					<input id="nome" type="text" name="nome_completo" placeholder="Nome Completo" required autofocus />
+
+					<label for="tel">Celular:</label>
+					<input id="tel" type="tel" name="tel" placeholder="(99) 99999-9999" required pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" />
+					
+					<label for="idade">Idade:</label>
+					<input id="idade" type="number" name="idade" placeholder="00" min="13" max="120" step="1" />
+
+					<label for="email">E-mail:</label>
+					<input id="email" type="email" name="email" placeholder="seu@email.com" />
+
+					<label for="senha">Senha:</label>
+					<input id="senha" type="password" name="senha" placeholder="Crie uma senha" />
+
+					<div id="grup"> 
+						<div id="data">
+							<label for="data">Data:</label>
+							<input id="data" type="date" name="data" placeholder="" />
+						</div>
+
+						<div id="hora">
+							<label for="hora">Horário:</label>
+							<input id="hora" type="time" name="horario" placeholder="" />
+						</div>
+					</div>
+
+					<label for="nivel">Nível:</label>
+					<select id="nivel" name="nivel"> 
+						<option> Selecione seu nível </option>
+						<option value="IN"> Iniciante </option>
+						<option value="IT"> Intermediário </option>
+						<option value="AV"> Avançado </option>
+						<option value="TAF"> Treinamento de Aptidão Físca (TAF) </option>
+						<option value="GE"> Pós-lesão ou grupos especiais </option>
+					</select>
+
+					<fieldset>
+					<legend> Gênero:</legend>
+						<input id="fem" type="radio" name="genero" value="fem" /> <label for="fem"> Feminino </label> <br />
+						<input id="masc" type="radio" name="genero" value="masc" /> <label for="fem"> Masculino </label> <br />
+						<input id="other" type="radio" name="genero" value="other" /> <label for="other"> Outro/Prefiro não informar </label> <br />
+					</fieldset>
+
+					<fieldset>
+					<legend> Interesses: </legend>
+						<input id="cons" type="checkbox" name="interesse" value=""> <label for="cons">Consultoria</label> <br />
+						<input id="pmen" type="checkbox" name="interesse" value=""> <label for="pmen">Plano Mensal</label> <br />
+						<input id="ptri" type="checkbox" name="interesse" value=""> <label for="ptri">Plano Trimestral</label> <br />
+						<input id="psem" type="checkbox" name="interesse" value=""> <label for="psem">Plano Semestral</label> <br />
+						<input id="panu" type="checkbox" name="interesse" value=""> <label for="panu">Plano Anual</label> <br />
+						<input id="pero" type="checkbox" name="interesse" value=""> <label for="pero">Personal Online</label> <br />
+					</fieldset>
+
+					<label for="msg">Observações:</label>
+					<textarea id="msg" cols="97" rows="4" >
+					</textarea>
+
+					<div id="btts">
+						<input type="submit" name="btt-enviar" value="Agendar">
+						<input type="reset" name="btt-limpar" value="Cancelar">
+					</div>
+
+				</form>
+			</main>
+
+			<aside> 
+				<div id="cont-aside"> 
+					<p id="t-aside"> Contato </p>
+					<p> Ou, se preferir, entre em contato diretamente pelo WhatsApp!</p> <br/>
+					<a href="https://wa.me/5561991728475" target="blank"> <img src="img/wpp-icon2.png"> </a>  
+				</div>
+			</aside>
+
+			<footer> 
+				<em> <p> Desenvolvido por <a href="https://www.instagram.com/viniesouza/" target="blank">Vinielle Souza</a> | 2024 </p>
+			</footer>
+		</section>		
+	</body>
+
+</html>
