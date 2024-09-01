@@ -491,9 +491,6 @@ footer a:hover{
 		top: unset;
 	}
 
-	#nav-po{
-		display: none;
-	}
 
 	video{
 		width: 100%;
@@ -501,14 +498,12 @@ footer a:hover{
 
 	#pag-agend{
 		grid-template-columns: 1fr 3fr;
-		grid-template-rows: 6vh 20vh 20vh 180vh 15vh 5vh;
+		grid-template-rows: 6vh 20vh 10vh 180vh 15vh 5vh;
 	}
 
-	#nav-po{
-		display: none;
+	#container{
+	flex-wrap: wrap;
 	}
-
-
 
 
 }
@@ -568,9 +563,5 @@ footer a:hover{
 		text-align: center;
 		margin: auto;	
 	}
-	
-
-
-
 
 }
